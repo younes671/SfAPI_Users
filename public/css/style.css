@@ -76,3 +76,29 @@ main{
     font-size: 1.4rem;
     cursor: pointer;
 }
+
+.formAddMembre{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    border-radius: 10px;
+    height: 35px;
+    padding: 10px;
+}
+
+.btn{
+    height: 35px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}

@@ -47,4 +47,33 @@
         </div>
     {% endfor %}
 </div>
+
+<h2>Ajouter un membre</h2>
+<div class="formAddMembre">
+    <form class="form" action=" {{ path('membre_add') }} " method="post">
+        <label for="title">Title</label>
+        <input class="input" type="text" name="title"><br>
+        <label for="last">Last</label>
+        <input class="input" type="text" name="last"><br>
+        <label for="first">First</label>
+        <input class="input" type="text" name="first"><br>
+        <label for="email">Email</label>
+        <input class="input" type="text" name="email"><br>
+        <label for="phone">Phone</label>
+        <input class="input" type="text" name="phone"><br>
+        <label for="picture">Picture</label>
+        <input class="input" type="text" name="picture"><br>
+        <label for="streetnumber">Street Number</label>
+        <input class="input" type="text" name="streetnumber"><br>
+        <label for="streetname">Street Name</label>
+        <input class="input" type="text" name="streetname"><br>
+        <label for="postcode">Post Code</label>
+        <input class="input" type="text" name="postcode"><br>
+        <label for="city">City</label>
+        <input class="input" type="text" name="city"><br>
+        <label for="country">Country</label>
+        <input class="input" type="text" name="country"><br>
+        <button class="btn" type="submit">Ajouter</button>
+    </form>
+</div>
 {% endblock %}
